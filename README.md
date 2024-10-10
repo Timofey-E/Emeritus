@@ -62,11 +62,13 @@ I decided not to use data from this column: data.drop('car', axis = 1)
       Found 189 NaN values
       Unique values: ['1~3' 'less1' 'never' 'gt8' '4~8' nan]
 3.3. I decided to impute the missing values using mode (because the number of missing values is not significant - less than 1.7%)
+      
       Filled missing values in 'Bar' with mode: never
       Filled missing values in 'CoffeeHouse' with mode: less1
       Filled missing values in 'CarryAway' with mode: 1~3
       Filled missing values in 'RestaurantLessThan20' with mode: 1~3
       Filled missing values in 'Restaurant20To50' with mode: less1
+      
 4. What proportion of the total observations chose to accept the coupon?
 
 % drivers who accepted coupon out of the entire dataset
